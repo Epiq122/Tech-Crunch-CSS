@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvitica-Nue', sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-img {
+  width: 25%;
+}
+
+.join {
+  color: rgb(253, 184, 7);
+}
+
+.nav a {
+  color: grey;
+}
+
+.side-nav {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.side-nav ul li {
+  padding-top: 5px;
+  padding-bottom: 13px;
+}
+
+.nav {
+  width: 17%;
+  float: left;
+}
+
+input {
+  border: none;
+}
+
+/* main */
+
+.china-img {
+  position: relative;
+  padding-top: 5px;
+  bottom: 0;
+
+  width: 800px;
+}
+
+main {
+  display: flex;
+  width: 80%;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+header .header-span {
+  color: rgb(253, 184, 7);
+}
+
+header p {
+  color: grey;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+
+h3 {
+  color: black;
+  font-weight: 700;
+}
+
+.article-1,
+.article-2,
+.article-3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.bottom {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  margin-left: 240px;
+}
+
+.bottom-news {
+  margin-left: 240px;
+  display: flex;
+}
+
+.image img {
+  width: 300px;
+}
+
+.title {
+  margin-right: 100px;
+  /* width: 33.3%; */
+}
+
+.article a p {
+  /* width: 33.3%; */
+  width: 70%;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.title h2 {
+  color: black;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title span {
+  color: black;
+}
+
+.title .date {
+  color: grey;
+}
